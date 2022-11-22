@@ -5,7 +5,8 @@ error_reporting(E_ALL);
 
 include_once __DIR__ . '/vendor/autoload.php';
 include_once('classes/log.php');
-include_once('../src/request.php');
+// include_once('../src/request.php');
+use Netopia\Paymentsv2;
 
 /**
  * Load .env 

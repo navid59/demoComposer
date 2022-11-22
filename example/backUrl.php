@@ -4,10 +4,11 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 include_once('classes/log.php');
-include_once('../src/verifyAuth.php');
+// include_once('../src/verifyAuth.php');
 
 
 include_once __DIR__ . '/vendor/autoload.php';
+use Netopia\Paymentsv2;
 /**
  * Load .env 
  * Read Base root , ... from .env

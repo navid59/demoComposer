@@ -4,9 +4,10 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 include_once('classes/log.php');
-include_once('../src/ipn.php');
+// include_once('../src/ipn.php');
 
 require_once 'vendor/autoload.php';
+use Netopia\Paymentsv2;
 
 /**
  * Load .env 
