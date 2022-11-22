@@ -1,0 +1,4 @@
+example/certificates/
+example/logs/*.log
+example/vendor/
+example/composer.lock
