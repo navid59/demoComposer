@@ -1,4 +1,5 @@
 <?php 
+namespace Netopia\Paymentsv2;
 class Status extends Start{
     public $ntpID;
     public $orderID;

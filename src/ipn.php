@@ -1,5 +1,6 @@
 <?php
-include_once('../src/request.php');
+namespace Netopia\Paymentsv2;
+// include_once('../src/request.php');
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\SignatureInvalidException;

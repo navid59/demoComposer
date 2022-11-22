@@ -1,8 +1,7 @@
 {
     "require": {
         "firebase/php-jwt": "^5.2",
-        "vlucas/phpdotenv": "^5.5",
-        "league/commonmark": "^1.6"
+        "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
         "psr-4": {

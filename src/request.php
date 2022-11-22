@@ -1,5 +1,6 @@
 <?php 
-include_once('../src/start.php');
+namespace Netopia\Paymentsv2;
+// include_once('../src/start.php');
 
 class Request extends Start {
     public $authenticationToken;

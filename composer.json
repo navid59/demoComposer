@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5",
-        "ext-dom": "*"
+        "ext-dom": "*",
+        "firebase/php-jwt": "^5.2"
     },
     "autoload": {
         "psr-4": {
